@@ -13,4 +13,4 @@ jobs:
       - name: check out code
         uses: actions/checkout@v4
       - name: build docker image
-        run: docker build -t spring-bot-app:latest
+        run: docker build -t spring-bot-app:latest .
